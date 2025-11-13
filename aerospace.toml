@@ -207,5 +207,9 @@ if.app-id = 'com.apple.finder'
 run = "move-node-to-workspace F"
 
 [[on-window-detected]]
-if.app-id = 'com.1password.1password'
+if.app-id = 'md.obsidian'
 run = "move-node-to-workspace O"
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+run = "move-node-to-workspace V"
