@@ -190,6 +190,9 @@ alt-shift-l = ['join-with right', 'mode main']
 
 alt-shift-f = 'fullscreen'
 
+[[on-window-detected]]
+if.app-id = '.*'
+run = "macos-native-fullscreen on"
 
 [[on-window-detected]]
 if.app-id = 'com.brave.Browser'
