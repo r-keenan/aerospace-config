@@ -190,9 +190,6 @@ alt-shift-l = ['join-with right', 'mode main']
 
 alt-shift-f = 'fullscreen'
 
-[[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty'
-run = "move-node-to-workspace T"
 
 [[on-window-detected]]
 if.app-id = 'com.brave.Browser'
@@ -207,8 +204,20 @@ if.app-id = 'com.apple.finder'
 run = "move-node-to-workspace F"
 
 [[on-window-detected]]
+if.app-id = 'com.nvidia.gfnpc.mall'
+run = "move-node-to-workspace G"
+
+[[on-window-detected]]
 if.app-id = 'md.obsidian'
 run = "move-node-to-workspace O"
+
+[[on-window-detected]]
+if.app-id = 'com.valvesoftware.steam'
+run = "move-node-to-workspace S"
+
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
+run = "move-node-to-workspace T"
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
