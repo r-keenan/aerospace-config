@@ -192,7 +192,7 @@ alt-shift-f = 'fullscreen'
 
 [[on-window-detected]]
 if.app-id = '.*'
-run = "macos-native-fullscreen on"
+run = "fullscreen on"
 
 [[on-window-detected]]
 if.app-id = 'com.brave.Browser'
